@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VT0Q0Y8FF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-5VT0Q0Y8FF', {
+            'page_title': 'click',
+            'page_path': '/click'
+        });
+    </script>
+    <script type="text/javascript">
+        function redirect() {
+            let params = new URLSearchParams(document.location.search);
+            let url = params.get("url");
+            let source = params.get("s"); 
+            clickTrackAffiliate('click', url, source);
+            location.href = url;
+        }
+    </script>
+</head>
+
+<body onload="redirect()">
+
+    <script src="js/analytics.js"></script>
+</body>
+
+</html>
