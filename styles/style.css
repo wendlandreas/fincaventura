@@ -2927,3 +2927,64 @@ Google map
   }
 }
 
+.fa-nav {
+  background: rgba(5, 8, 7, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.35);
+  padding: 12px 0;
+}
+
+.fa-nav .navbar-brand,
+.fa-nav .brand-logo .col {
+  color: #fdfdfd;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fa-nav .navbar-nav > li > a {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 14px 16px;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.fa-nav .navbar-nav > li + li > a {
+  margin-left: 2px;
+}
+
+.fa-nav .navbar-nav > li > a:hover,
+.fa-nav .navbar-nav > li > a:focus {
+  color: #8fe28a;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.fa-nav .navbar-toggle {
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.fa-nav .navbar-toggle .icon-bar {
+  background: #fff;
+}
+
+@media (max-width: 991px) {
+  .fa-nav .navbar-nav > li > a {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+  }
+}
+
+@media (max-width: 767px) {
+  .fa-nav {
+    background: rgba(5, 8, 7, 0.97);
+  }
+
+  .fa-nav .navbar-nav > li > a {
+    margin-left: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+}
+
