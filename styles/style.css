@@ -684,14 +684,15 @@ a,
 }
 
 .btn.btn-g {
-  background: #e5e5e5;
+  background: #c7c7c7;
   color: #111;
+  border: 1px solid #4b4b4b
 }
 
 .btn.btn-g:hover,
 .btn.btn-g:focus {
-  background: #d8d8d8;
-  color: #111;
+  background: rgba(255, 255, 255, 0);
+  color: #fff;
 }
 
 .btn.btn-border-w {
@@ -864,7 +865,7 @@ a:hover, a:focus {
 }
 
 .bg-dark a {
-  color: #aaa;
+  color: #efebeb;
 }
 
 .bg-dark a:hover, .bg-dark a:focus {
@@ -2958,8 +2959,9 @@ Google map
 
 .fa-nav .navbar-nav > li > a:hover,
 .fa-nav .navbar-nav > li > a:focus {
-  color: #8fe28a;
+  color: #e2824e;
   background: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
 }
 
 .fa-nav .navbar-toggle {
@@ -2986,5 +2988,22 @@ Google map
     margin-left: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   }
+}
+
+.btn-academy {
+  background: #b55624;
+  border: 1px solid #f1722f;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  box-shadow: 0 14px 34px rgba(241, 114, 47, 0.45);
+}
+
+.btn-academy:hover,
+.btn-academy:focus {
+  color: #fff;
+  background: #ff8749;
+  border-color: #ff8749;
 }
 
