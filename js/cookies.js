@@ -31,7 +31,7 @@ const tMarketing = qs('#fa-toggle-marketing');
 
 function openBanner()  { banner.style.display = 'block'; }
 function closeBanner() { banner.style.display = 'none'; }
-function openModal()   { modal.style.display  = 'block'; }
+function openModal()   { modal.style.display  = 'flex'; }
 function closeModal()  { modal.style.display  = 'none'; }
 
 /* ---- Loader: GA4 directo ---- */
