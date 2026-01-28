@@ -2,8 +2,8 @@
    FincAventura Cookie Consent
    =========================== */
 
-const GA_ID  = 'G-5VT0Q0Y8FF';            // p.ej. 'G-XXXXXXXXXX'  (déjalo '' si usas GTM)
-const GTM_ID = '';            // p.ej. 'GTM-XXXXXXX'   (recomendado; gestiona GA en GTM)
+const GA_ID  = '';            // p.ej. 'G-XXXXXXXXXX'  (déjalo '' si usas GTM)
+const GTM_ID = 'GTM-MNRG4MW8';            // p.ej. 'GTM-XXXXXXX'   (recomendado; gestiona GA en GTM)
 
 const LS_KEY = 'faConsentV1'; // versióna si cambias estructura
 const defaultConsent = { analytics: false, marketing: false, ts: null };
