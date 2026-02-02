@@ -342,9 +342,9 @@ a,
   padding-top: 140px !important;
 }
 
-.pb-0 {
+/* .pb-0 {
   padding-bottom: 0 !important;
-}
+} */
 
 .pb-10 {
   padding-bottom: 10px !important;
@@ -2734,7 +2734,7 @@ Google map
   /* Comments */
   .comment .comment {
     margin-left: 75px;
-  }
+  }  
 }
 
 @media (max-width: 1200px) {
@@ -2917,6 +2917,11 @@ Google map
   .align-left-sm {
     text-align: left;
   }
+
+  #video-intro-desktop {    
+    width: 315px;
+    height: 560px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -3007,3 +3012,19 @@ Google map
   border-color: #ff8749;
 }
 
+#fa-manage-cookies {
+	color: #4CAF50 !important;
+}
+
+#video-intro-desktop {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#video-channel-link {
+  color: #fff;
+}
+
+#video-channel-link:hover {  
+  color: #ff8749;
+}
